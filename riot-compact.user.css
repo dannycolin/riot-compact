@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name           Riot Compact
+@namespace      Riot-Compact
+@version        0.1.0
+@description    A Riot Web Compact Theme
+@author         Danny Colin
+@license        MPL 2.0
+@homepageURL		https://github.com/dannycolin/riot-compact
+@updateURL			https://raw.githubusercontent.com/dannycolin/riot-compact/master/riot-compact.css
+==/UserStyle== */
+
+@-moz-document domain("chat.mozilla.org"), domain("riot.im"), domain("modular.im") {
+  /* -------------------- */
+  /* Avatars              */
+  /* -------------------- */
+              
+  /* Rooms avatar */
+  .mx_RoomTile .mx_BaseAvatar_image,
+  .mx_EntityTile .mx_BaseAvatar_image {
+    width: 16px;
+    height: 16px;
+  }
+  /* Initial letter in generated avatars */
+  .mx_RoomTile .mx_BaseAvatar_initial,
+  .mx_EntityTile .mx_BaseAvatar_initial {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+  /* Userlist avatar */
+  .mx_EntityTile_avatar {
+    padding: 2px 8px;
+    width: 20px;
+  }
+  /* User powerlevel badge */
+  .mx_EntityTile_power {
+    width: 12px;  
+    height: 12px;  
+  }            
+  /* Direct message badge */
+  .mx_RoomTile_dm {
+    width: 8px !important;
+  }
+               
+  /* -------------------- */
+  /* Tiles                */
+  /* -------------------- */
+  .mx_RoomTile, .mx_EntityTile {
+    height: 24px;
+    align-items: normal;
+  }
+               
+}

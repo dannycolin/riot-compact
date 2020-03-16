@@ -2,6 +2,8 @@
 
 A userstyle for Riot Web with the goal to maximize the content you can see.
 
+[![Screenshot of the theme](screenshot.png)][screenshot]
+
 ## Installation
 
 You'll need to:
@@ -30,6 +32,7 @@ one at http://mozilla.org/MPL/2.0/.
 [install-github]: https://raw.githubusercontent.com/dannycolin/riot-compact/master/riot-compact.user.css
 [install-userstyle]: https://userstyle.org
 [mozilla-matrix]: https://chat.mozilla.org
+[screenshot]: https://raw.githubusercontent.com/dannycolin/riot-compact/master/screenshot.png
 [stylus-cr]: https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo
 [stylus-ff]: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 [riot-css]: https://matrix.to/#/!lBPRDCcyNCozZeDGbX:mozilla.org?via=mozilla.org

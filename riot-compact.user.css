@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Riot Compact
 @namespace      Riot-Compact
-@version        0.2.0
+@version        0.3.0
 @description    A Riot Web Compact Theme
 @author         Danny Colin
 @license        MPL 2.0
@@ -37,19 +37,19 @@
     padding: 2px 8px;
     width: 20px;
   }
-  /* User powerlevel badge */
-  .mx_EntityTile_power {
-    width: 12px;  
-    height: 12px;  
-  }            
   /* Direct message badge */
   .mx_RoomTile_dm {
     width: 8px !important;
   }
                
   /* -------------------- */
-  /* Tiles                */
+  /* Sidebars                */
   /* -------------------- */
+	.mx_RoomSubList.mx_RoomSubList_hidden,
+	.mx_RoomSubList_labelContainer {
+		height: 24px !important;		
+	}
+	
   .mx_RoomTile, .mx_EntityTile {
     height: 24px;
     align-items: normal;

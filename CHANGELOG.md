@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.0
+
+- reduce space between room list
+- remove code for powerlevel badge since they've been removed from Riot-Web.
+
 ## v0.2.0
 
 - Fix update link

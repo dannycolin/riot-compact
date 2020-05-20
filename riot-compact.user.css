@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Riot Compact
-@namespace      Riot-Compact
-@version        0.3.0
+@namespace      com.dannycolin.riot-compact
+@version        0.3.1
 @description    A Riot Web Compact Theme
 @author         Danny Colin
 @license        MPL 2.0
@@ -19,8 +19,8 @@
   .mx_RoomHeader .mx_BaseAvatar_image,
   .mx_RoomTile .mx_BaseAvatar_image,
   .mx_EntityTile .mx_BaseAvatar_image {
-    width: 16px;
-    height: 16px;
+    width: 16px !important;
+    height: 16px !important;
   }
   /* Initial letter in generated avatars */
   .mx_TopLeftMenuButton .mx_BaseAvatar_initial,

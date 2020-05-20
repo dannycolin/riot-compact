@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.1
+
+- fix size of avatar in room list broken by riot-web update to v1.6.1
+- change script namespace
+
 ## v0.3.0
 
 - reduce space between room list

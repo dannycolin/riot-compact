@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.0
+
+- Remove invite button in userlist
+- fix E2E icon in userlist
+
 ## v0.3.1
 
 - fix size of avatar in room list broken by riot-web update to v1.6.1

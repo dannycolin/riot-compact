@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Riot Compact
 @namespace      com.dannycolin.riot-compact
-@version        0.3.1
+@version        0.4.0
 @description    A Riot Web Compact Theme
 @author         Danny Colin
 @license        MPL 2.0
@@ -32,16 +32,17 @@
     font-size: 12px !important;
     line-height: 16px !important;
   }
-  /* Userlist avatar */
-  .mx_EntityTile_avatar {
-    padding: 2px 8px;
-    width: 20px;
-  }
+	/* E2E Icon */
+	.mx_E2EIcon.mx_E2EIcon_normal,
+	.mx_E2EIcon.mx_E2EIcon_verified {
+		width: 12px;
+		height: 12px;
+	}
   /* Direct message badge */
   .mx_RoomTile_dm {
     width: 8px !important;
   }
-               
+	
   /* -------------------- */
   /* Sidebars                */
   /* -------------------- */
@@ -54,6 +55,10 @@
     height: 24px;
     align-items: normal;
   }
+	
+	.mx_MemberList_invite {
+		display: none;
+	}
 	
   /* -------------------- */
   /* Topbar               */

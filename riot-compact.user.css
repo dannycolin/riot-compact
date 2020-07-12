@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Riot Compact
 @namespace      com.dannycolin.riot-compact
-@version        0.4.0
+@version        0.4.1
 @description    A Riot Web Compact Theme
 @author         Danny Colin
 @license        MPL 2.0
@@ -32,6 +32,10 @@
     font-size: 12px !important;
     line-height: 16px !important;
   }
+	/* RoomHeader */
+	.mx_RoomHeader_avatar {
+		margin-top: 3px !important;
+	}
 	/* E2E Icon */
 	.mx_E2EIcon.mx_E2EIcon_normal,
 	.mx_E2EIcon.mx_E2EIcon_verified {

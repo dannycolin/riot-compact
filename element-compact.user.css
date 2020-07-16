@@ -1,0 +1,85 @@
+/* ==UserStyle==
+@name           Element Compact
+@namespace      com.dannycolin.element-compact
+@version        0.5.0
+@description    A Element Web Compact Theme
+@author         Danny Colin
+@license        MPL 2.0
+@homepageURL		https://github.com/dannycolin/element-compact
+@updateURL			https://raw.githubusercontent.com/dannycolin/element-compact/master/element-compact.user.css
+==/UserStyle== */
+
+@-moz-document domain("app.element.io") {
+	/* Left Panel */
+	.mx_LeftPanel2_userHeader {
+		padding: 0 12px !important;
+		height: 24px;
+	}
+	.mx_UserMenu_row {
+		align-items: start !important;
+	}
+	.mx_UserMenu_userAvatarContainer,
+	.mx_UserMenu_headerButtons {
+		margin-top: 3px !important;
+	}
+
+	/* Room Header */
+	.mx_RoomHeader {
+		flex: 0 0 24px;
+	}
+	.mx_RoomHeader_wrapper {
+		height: 24px;
+	}
+	.mx_RoomHeader_name {
+		font-size: 1em !important;
+	}
+	.mx_RoomHeader_topic {
+		margin-top: 0;
+		max-height: 1.2em;
+	}
+	.mx_AccessibleButton.mx_RoomHeader_button,
+	.mx_RoomHeader_button::before,
+	.mx_AccessibleButton.mx_RightPanel_headerButton,
+	.mx_RightPanel_headerButton:before {
+		height: 16px;
+		width: 16px;
+	}
+	.mx_RightPanel_headerButton {
+		margin: 0 4px;
+	}
+	.mx_RightPanel_headerButton:before {
+		top: 0;
+		left: 0;
+	}
+
+	/* Room List v2 */
+	.mx_RoomTile2 {
+		height: 20px;
+	}
+
+	/* Avatars */
+	.mx_LeftPanel2 .mx_BaseAvatar .mx_BaseAvatar_initial,
+	.mx_EntityTile_avatar .mx_BaseAvatar .mx_BaseAvatar_initial {
+		font-size: 12px !important;
+		line-height: 16px !important;
+		width: 16px !important;
+	}
+	/* User picture */
+	.mx_RoomHeader_avatar .mx_BaseAvatar.mx_BaseAvatar_image,
+	.mx_LeftPanel2 .mx_BaseAvatar.mx_BaseAvatar_image,
+	.mx_EntityTile_avatar .mx_BaseAvatar.mx_BaseAvatar_image,
+	/* Generate Initial */
+	.mx_RoomHeader_avatar .mx_BaseAvatar .mx_BaseAvatar_image,
+	.mx_LeftPanel2 .mx_BaseAvatar .mx_BaseAvatar_image,
+	.mx_EntityTile_avatar .mx_BaseAvatar .mx_BaseAvatar_image {
+		height: 16px !important;
+		width: 16px !important;
+	}
+
+	/* Hide the follow element
+	 *	- Invite button in Userlist
+	 */
+	.mx_AccessibleButton.mx_MemberList_invite {
+		display: none;
+	}
+}
